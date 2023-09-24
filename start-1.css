@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{margin:0; padding:0; }
+.cerceve
+{
+	width:100%;
+	height:2000px;
+}
+.ilk
+{
+	width:100%;
+	height:70px;
+	background:#2C3E50;	
+}
+.baslik
+{
+	float:left;
+	width:250px;
+	height:40px;
+	margin:10px 0 0 80px ;
+	font:bold 20px Verdana, Geneva, sans-serif;
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.menu
+{
+	float:right;
+	width:280px;
+	height:48px;
+	margin:0 70px 0 0;
+	padding:22px 0 0 80px;	
+}
+.menu ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li
+{ float:left; }
+.menu ul li a
+{
+	display:block;
+	width:93px;
+	height:50px;
+	text-align:center;
+	text-decoration:none;
+	font:14px Verdana, Geneva, sans-serif;
+	color:#FFFFFF;	
+}
+.menu ul li a:hover
+{
+	color:#18BC9C;
+}
+.icerik
+{
+	width:100%;
+	height:480px;
+	background:#18BC9C;
+	padding:20px 0 0 0;	
+}
+.orta
+{
+	float:left;
+	width:400px;
+	height:550px;
+	margin:0 0 0 425px;
+	color:#FFFFFF;
+}
+.fotoimg
+{
+	float:left;
+	width:400px;
+	height:256px;
+	margin:0 0 0 80px;	
+}
+.yazi
+{
+	float:left;
+	width:400px;
+	height:45px;
+	text-align:center;
+	font:35px Arial, Helvetica, sans-serif;
+	color:#FFF;	
+}
+.cizgi
+{
+	float:left;
+	width:auto;
+	height:43px;
+	margin:6px 3px 30px 50px;
+}
+.cizgi1
+{
+	float:left;
+	width:143px;
+	height:43px;
+	margin:6px 0 30px 3px;
+}
+.yıldız
+{
+	float:left;
+	width:43px;
+	height:41px;
+	margin:0 0 30px 0;	
+}
+.portfolio
+{
+	float:left;
+	width:100%;
+	height:600px;
+	margin:-75px 0 0 0;
+		
+}
+.portyazi
+{
+	width:100%;
+	height:25px;
+	text-align:center;
+	color:#000000;
+	font:bold 30px Verdana, Geneva, sans-serif;	
+	margin:20px 0 0 0;
+}
+.cizgi3
+{
+	float:left;
+	width:auto;
+	height:43px;
+	margin:20px 5px 0 475px;
+}
+.cizgi4
+{
+	float:left;
+	width:143px;
+	height:43px;
+	margin:20px 0 0 -3px;
+}
+.yıldız2
+{
+	float:left;
+	width:43px;
+	margin:13px 0 0 0;
+}
+.ark1
+{
+	float:left;
+	width:888px;
+	height:470px;
+	margin:0 0 0 200px;
+}
+.f1
+{
+	float:left;
+	width:260px;
+	height:210px;
+	margin:0 50px 50px 0;	
+}
+.f2
+{
+	float:left;
+	width:260px;
+	height:210px;
+	margin:0 0 0 0;
+	background:url(images/submarine.png);
+	background-size:cover;
+}
+.f2:hover{
+	background:url(images/a.png);
+	background-size:cover;}
+.about
+{
+	float:left;
+	width:100%;
+	height:400px;
+	background:#18BC9C;
+}
+.aboutbaslik
+{
+	float:left;
+	width:100%;
+	height:45px;
+	text-align:center;
+	font:35px Verdana, Geneva, sans-serif;
+	color:#FFFFFF;
+	margin:40px 0 0 0;
+}
+.aboutciz
+{
+	float:left;
+	width:auto;
+	height:20px;
+	margin:6px 3px 30px 480px;
+}
+.aboutciz1
+{
+	float:left;
+	width:143px;
+	height:20px;
+	margin:6px 0 30px -2px;
+}
+.aboutyıl
+{
+	float:left;
+	width:43px;
+	height:41px;
+	margin:0 0 30px 0;	
+}
+.aboutyazi
+{
+	float:left;
+	width:350px;
+	height:250px;
+	color:#FFF;
+	margin:70px 0 0 -510px;	
+}
+.aboutyazi1
+{
+	float:left;
+	width:350px;
+	height:250px;
+	color:#FFF;
+	margin:70px 0 0 -130px;	
+}
+.buton
+{
+	float:left;
+	width:150px;
+	height:50px;
+	background:#18BC9C;
+	border:solid 2px #FFFFFF;
+	border-radius:10px;
+	margin:290px 0 0 -450px;
+	color:#FFFFFF;
+	font-size:15px;
+}
+.contact
+{
+	float:left;
+	width:100%;
+	height:390px;
+	background:#FFF;
+	margin:25px 0 0 0;	
+}
+.contactyazi
+{
+	float:left;
+	width:100%;
+	height:40px;
+	color:#000;
+	font:30px Verdana, Geneva, sans-serif;
+	text-align:center;
+	margin:25px 0 0 0;
+}
+.contactciz
+{
+	float:left;
+	width:130px;
+	height:20px;
+	margin:30px 0 0 480px;
+}
+.contactciz2
+{
+	float:left;
+	width:130px;
+	height:20px;
+	margin:30px 0 0 0;
+}
+.contactyıl
+{
+	float:left;
+	width:43px;
+	height:43px;
+	margin:23px 3px 0 5px;	
+}
+.contact table
+{
+	float:left;
+	margin:80px 0 0 -500px;	
+}
+.contact table input
+{
+	height:30px;
+	border:0;
+	border-top:solid 1px #868686;
+	color:#868686;
+}
+.footer
+{
+	float:left;
+	width:100%;
+	height:200px;
+	background:#2C3E50;	
+}
+.fo1
+{
+	float:left;
+	width:300px;
+	height:200px;
+	border:solid 1px #FFFFFF;	
+}
